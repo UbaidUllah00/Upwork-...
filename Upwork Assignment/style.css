@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
+/* navbar */
 .top{
     display: flex;
     justify-content: center;
@@ -99,7 +99,7 @@
    width: 80px;
    transition: 0.3s;
 }
- 
+ /* main body */
 .body{
     display: flex;
     /* justify-content: space-evenly; */
@@ -154,12 +154,112 @@
    }
    .notpics{
     display: flex;
+   
+   
    }
    .notpics h3{
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 60px;
+    margin-left: 70px;
     color: #A0AF9D;
    }
-   .logo1 img{
-  
+   .notpics .logo1{
+     margin-left: -100px;
+     margin-top: 70px;
    }
+   .logo1 img{
+    display: inline-block;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 25px;
+   
+   }
+   /* middle */
+   .middle{
+    position: relative;
+    width: 80%;
+   }
+   .animated-image{
+    position: absolute;
+    top: 80px;
+    left: 70px;
+   }
+   .texturing{
+     position: absolute;
+     top: 80px;
+     left: 570px;
+     font-weight: bold;
+     font-size: 36px;
+   }
+   .texturing .p1{
+    position: absolute;
+    top: 60px;
+     left: 10px;
+     font-size: 20px;
+   }
+   .texturing .p2{
+    position: absolute;
+    top: 90px;
+     left: 10px;
+     font-size: 20px;
+   }
+   .texturing .p3{
+    position: absolute;
+    top: 120px;
+     left: 10px;
+     font-size: 20px;
+   }
+ .btn2 {
+    position: absolute;
+    top: 260px;
+    left: 580px;
+ }
+ .btn2 button{
+    width: 130px;
+    height: 40px;
+    padding: 4px;
+    background-color:#408A06;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 22px;
+ }
+ .btn2 button:hover{
+    background-color: #3ce137;
+ }
+ .btn2 .bt2{
+    margin-left: 20px;
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 22px;
+    padding: 4px;
+ }
+ .btn2 .bt2:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+ }
+ /* category */
+ .category-1{
+    display: flex;
+    position: relative;
+ }
+ .text h1{
+    position: absolute;
+    top: 460px;
+    left: 70px;
+    font-weight: bold;
+    font-size: 38px;
+ }
+ .s1{
+    position: absolute;
+    top: 520px;
+    left: 75px;
+ }
+ .s-2{
+    position: absolute;
+    top: 520px;
+    left: 205px;
+ }
+ .s-2 a{
+    text-decoration: underline;
+    color: #408A06;
+ }
